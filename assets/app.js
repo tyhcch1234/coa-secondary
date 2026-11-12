@@ -22,6 +22,13 @@
       { id: "schooladmin", href: "schooladmin.html", n: "07", label: "收生、停學與校舍" },
       { id: "appendices", href: "appendices.html", n: "08", label: "二十個附錄詳解" }
     ]},
+    { group: "津貼實務 2026/27", items: [
+      { id: "oebg", href: "oebg.html", n: "11", label: "營辦津貼（OEBG）" },
+      { id: "cfeg", href: "cfeg.html", n: "12", label: "家具及設備津貼" },
+      { id: "rates", href: "rates.html", n: "13", label: "津貼額與估算" },
+      { id: "acgrant", href: "acgrant.html", n: "14", label: "空調設備津貼" },
+      { id: "compliance", href: "compliance.html", n: "15", label: "使用限制與審計" }
+    ]},
     { group: "參考", items: [
       { id: "resources", href: "resources.html", n: "09", label: "相關指引與表格" },
       { id: "reference", href: "reference.html", n: "10", label: "條文索引（可搜尋）" }

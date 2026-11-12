@@ -29,6 +29,15 @@
       { id: "acgrant", href: "acgrant.html", n: "14", label: "空調設備津貼" },
       { id: "compliance", href: "compliance.html", n: "15", label: "使用限制與審計" }
     ]},
+    { group: "學校行政手冊 2026", items: [
+      { id: "sag", href: "sag.html", n: "16", label: "手冊總覽與地圖" },
+      { id: "sag-management", href: "sag-management.html", n: "17", label: "校本管理與策劃" },
+      { id: "sag-learning", href: "sag-learning.html", n: "18", label: "學與教" },
+      { id: "sag-students", href: "sag-students.html", n: "19", label: "學生事務" },
+      { id: "sag-finance", href: "sag-finance.html", n: "20", label: "學校財務" },
+      { id: "sag-staff", href: "sag-staff.html", n: "21", label: "人事管理" },
+      { id: "sag-premises", href: "sag-premises.html", n: "22", label: "校舍與安全" }
+    ]},
     { group: "參考", items: [
       { id: "resources", href: "resources.html", n: "09", label: "相關指引與表格" },
       { id: "reference", href: "reference.html", n: "10", label: "條文索引（可搜尋）" }

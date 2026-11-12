@@ -25,9 +25,10 @@
 字體載入失敗時自動退回系統中文字體。
 
 ```
-site/
+./
 ├── index.html
 ├── intro.html … reference.html
+├── .nojekyll
 └── assets/
     ├── style.css
     └── app.js      # 側欄導覽、編制查詢、索引搜尋、目錄 scrollspy
@@ -36,7 +37,6 @@ site/
 ## 本機預覽
 
 ```bash
-cd site
 python3 -m http.server 8000
 # 瀏覽 http://localhost:8000
 ```
@@ -45,8 +45,7 @@ python3 -m http.server 8000
 
 ```bash
 # 1. 在 GitHub 建立 repo（例如 coa-secondary），不要初始化 README
-# 2. 把 site/ 的內容推到 repo 根目錄
-cd site
+# 2. 在本資料夾（網站根目錄）執行
 git init
 git add .
 git commit -m "香港中學資助則例導讀"

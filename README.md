@@ -64,6 +64,18 @@ git push -u origin main
 所有連結都是**相對路徑**（`assets/style.css`、`intro.html`），因此放在
 `username.github.io/repo/` 這種子路徑下可直接運作，無需修改。
 
+
+## 單一檔案版（最快上傳）
+
+`standalone/index.html` 是整站合併成一個自足檔案（CSS/JS 內嵌、章節改為頁內錨點，約 210 KB）。
+不想用 git 的話，可直接在 GitHub 網頁介面：
+
+1. 開啟 repo → **Add file → Upload files**
+2. 把 `standalone/index.html` 拖進去（檔名保持 `index.html`）
+3. Commit → Settings → Pages → Branch `main`、`/ (root)` → Save
+
+重新產生：`python3 build_single.py`（需在 `site/` 的上一層執行，會讀取 `site/` 各頁）。
+
 ## 資料來源
 
 | 文件 | 連結 |

@@ -27,7 +27,8 @@
       { id: "cfeg", href: "cfeg.html", n: "12", label: "家具及設備津貼" },
       { id: "rates", href: "rates.html", n: "13", label: "津貼額與估算" },
       { id: "acgrant", href: "acgrant.html", n: "14", label: "空調設備津貼" },
-      { id: "compliance", href: "compliance.html", n: "15", label: "使用限制與審計" }
+      { id: "compliance", href: "compliance.html", n: "15", label: "使用限制與審計" },
+      { id: "fm-grants", href: "fm-grants.html", n: "26", label: "津貼盈餘與退還" }
     ]},
     { group: "學校行政手冊 2026", items: [
       { id: "sag", href: "sag.html", n: "16", label: "手冊總覽與地圖" },

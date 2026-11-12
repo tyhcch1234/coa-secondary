@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>03 教職員編制與薪級 | 中學資助則例 · 導讀</title>
+<meta name="description" content="中學資助則例附錄二及三：師班比 1.8／2.1、101 行教學職位編制對照表、SGM 與 PGM 比例上限、實驗室技術員編制公式、各職級薪點與署任津貼。">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700&family=Noto+Serif+TC:wght@600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body data-page="staffing">
+<div class="shell">
+  <aside class="sidebar" id="sidebar"></aside>
+  <div class="main">
+    <div class="topbar">
+      <button class="menu-btn" id="menuBtn" aria-label="開啟目錄">☰</button>
+      <div class="crumbs">附錄二及三 › <b>教職員編制與薪級</b></div>
+      <div class="spacer"></div>
+      <button class="print-btn" id="printBtn">列印 / 存為 PDF</button>
+    </div>
+
+    <article>
+      <h1 class="page-title">教職員編制與薪級</h1>
+      <p class="lede">附錄二決定「一間學校可以有多少人、分佈在哪些職級」，附錄三決定「每個職級值多少薪點」。兩者合起來，就是學校每年教職員薪酬津貼的計算基礎，也是校內晉升空間的界線。</p>
+
+      <div class="page-toc">
+        <div class="h">本章內容</div>
+        <ol>
+          <li><a href="#ratio">師班比與整體編制</a></li>
+          <li><a href="#establishment">教學職位編制對照表（可查詢）</a></li>
+          <li><a href="#rank">職級比例與副校長職位</a></li>
+          <li><a href="#additional">各類額外教師與專責職位</a></li>
+          <li><a href="#lt">實驗室技術員編制</a></li>
+          <li><a href="#salary">薪級表與增薪欄</a></li>
+          <li><a href="#acting">署任安排與署任津貼</a></li>
+        </ol>
+      </div>
+
+      <h2 id="ratio">師班比與整體編制</h2>
+      <p>自 <strong>2017/18 學年</strong>起，資助中學的師班比如下（附錄二第 1(a) 段，2023 年 9 月 1 日更新）：</p>
+      <div class="stats">
+        <div class="stat"><div class="k">1.8</div><div class="l">每班初中（S1–S3）教師</div></div>
+        <div class="stat"><div class="k">2.1</div><div class="l">每班高中（S4–S6）教師</div></div>
+        <div class="stat"><div class="k">1<small> 名</small></div><div class="l">每校校長</div></div>
+        <div class="stat"><div class="k">1<small> 位小數</small></div><div class="l">編制計算結果的保留位數</div></div>
+      </div>
+
+      <div class="chart-card">
+        <h4>師班比的演變</h4>
+        <div class="sub">數據取自附錄二第 1(a) 段註腳的歷史說明；2017/18 起每班各加 0.1 名，新增職位為學位教師（GM）職級。</div>
+        <svg viewBox="0 0 900 260" width="100%" role="img" aria-label="師班比演變柱狀圖">
+          <g font-family="sans-serif" font-size="11" fill="#73808f">
+            <line x1="60" y1="200" x2="860" y2="200" stroke="#dde5ee"></line>
+            <line x1="60" y1="150" x2="860" y2="150" stroke="#f0f3f7"></line>
+            <line x1="60" y1="100" x2="860" y2="100" stroke="#f0f3f7"></line>
+            <line x1="60" y1="50"  x2="860" y2="50"  stroke="#f0f3f7"></line>
+            <text x="46" y="204" text-anchor="end">1.6</text>
+            <text x="46" y="154" text-anchor="end">1.8</text>
+            <text x="46" y="104" text-anchor="end">2.0</text>
+            <text x="46" y="54"  text-anchor="end">2.2</text>
+          </g>
+          <!-- 2009-2012: 1.7 / 1.9 -->
+          <rect x="105" y="175" width="42" height="25" fill="#c3d3e2" rx="2"></rect>
+          <rect x="152" y="125" width="42" height="75" fill="#9fb8ce" rx="2"></rect>
+          <text x="149" y="222" text-anchor="middle" font-size="11" font-family="sans-serif" fill="#4a5766">2009/10–2011/12</text>
+          <text x="126" y="169" text-anchor="middle" font-size="10.5" font-family="sans-serif" fill="#41556c">1.7</text>
+          <text x="173" y="119" text-anchor="middle" font-size="10.5" font-family="sans-serif" fill="#41556c">1.9</text>
+          <!-- 2012/13: 1.7 / 2.0 -->
+          <rect x="290" y="175" width="42" height="25" fill="#c3d3e2" rx="2"></rect>
+          <rect x="337" y="100" width="42" height="100" fill="#9fb8ce" rx="2"></rect>
+          <text x="334" y="222" text-anchor="middle" font-size="11" font-family="sans-serif" fill="#4a5766">2012/13–2016/17</text>
+          <text x="311" y="169" text-anchor="middle" font-size="10.5" font-family="sans-serif" fill="#41556c">1.7</text>
+          <text x="358" y="94" text-anchor="middle" font-size="10.5" font-family="sans-serif" fill="#41556c">2.0</text>
+          <!-- 2017/18: 1.8 / 2.1 -->
+          <rect x="545" y="150" width="42" height="50" fill="#0f6f66" rx="2"></rect>
+          <rect x="592" y="75" width="42" height="125" fill="#0f6f66" rx="2"></rect>
+          <text x="589" y="222" text-anchor="middle" font-size="11" font-family="sans-serif" fill="#0f6f66" font-weight="700">2017/18 起</text>
+          <text x="566" y="144" text-anchor="middle" font-size="11" font-family="sans-serif" fill="#0f6f66" font-weight="700">1.8</text>
+          <text x="613" y="69" text-anchor="middle" font-size="11" font-family="sans-serif" fill="#0f6f66" font-weight="700">2.1</text>
+          <text x="700" y="150" font-size="10.5" font-family="sans-serif" fill="#73808f">初中</text>
+          <rect x="740" y="140" width="12" height="12" fill="#0f6f66" rx="2"></rect>
+          <text x="758" y="150" font-size="10.5" font-family="sans-serif" fill="#73808f">現行</text>
+          <text x="700" y="180" font-size="10.5" font-family="sans-serif" fill="#73808f">高中</text>
+          <rect x="740" y="170" width="12" height="12" fill="#9fb8ce" rx="2"></rect>
+          <text x="758" y="180" font-size="10.5" font-family="sans-serif" fill="#73808f">歷史</text>
+        </svg>
+      </div>
+
+      <p>師班比已<strong>內含</strong>下列各項人手：分班教學、學校圖書館主任、額外中文科教師、輔導與課外活動的額外教師，以及教育統籌委員會第五號報告書下的額外非學位教師。換言之，學校不能以「圖書館主任」為由另行申請額外人手——該職位已在比例之內。</p>
+      <p>自 <strong>2019/20 學年</strong>起全面落實<strong>教師全部學位化</strong>：資助中學核准編制上的所有教學職位均為學位教師職位，非學位職級（CM / AM / SAM / PAM）停止新聘與晉升，在職者保留至自然流失或轉制。</p>
+
+      <h2 id="establishment">教學職位編制對照表</h2>
+      <p>下表為附錄二附件 A 的完整對照（教職員編制 7 至 101 人）。「教職員編制」指按師班比計算出的教學人員總數（含校長在內），再按此表分配職級。輸入數目即可定位：</p>
+
+      <div class="searchbox" style="max-width:420px">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"></circle><line x1="16.5" y1="16.5" x2="21" y2="21"></line></svg>
+        <input id="classInput" type="number" min="7" max="101" placeholder="輸入教職員編制數目，例如 29">
+      </div>
+      <div class="search-count" id="staffResult"></div>
+
+      <div class="table-wrap" style="max-height:520px;overflow-y:auto">
+        <table id="staffTable" class="compact">
+          <caption>附錄二附件 A：教學職位編制（2019 年 9 月 1 日更新）。S.G.M. = 高級學位教師；G.M. = 學位教師。</caption>
+          <thead>
+            <tr>
+              <th class="num" style="width:110px">教職員編制</th>
+              <th class="num" style="width:90px">校長</th>
+              <th class="num" style="width:90px">S.G.M.</th>
+              <th class="num" style="width:90px">G.M.</th>
+              <th class="num" style="width:100px">教學職位合計</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td class="num">7</td><td class="num">1</td><td class="num">2</td><td class="num">4</td><td class="num">6</td></tr>
+            <tr><td class="num">8</td><td class="num">1</td><td class="num">3</td><td class="num">4</td><td class="num">7</td></tr>
+            <tr><td class="num">9</td><td class="num">1</td><td class="num">3</td><td class="num">5</td><td class="num">8</td></tr>
+            <tr><td class="num">10</td><td class="num">1</td><td class="num">4</td><td class="num">5</td><td class="num">9</td></tr>
+            <tr><td class="num">11</td><td class="num">1</td><td class="num">4</td><td class="num">6</td><td class="num">10</td></tr>
+            <tr><td class="num">12</td><td class="num">1</td><td class="num">5</td><td class="num">6</td><td class="num">11</td></tr>
+            <tr><td class="num">13</td><td class="num">1</td><td class="num">5</td><td class="num">7</td><td class="num">12</td></tr>
+            <tr><td class="num">14</td><td class="num">1</td><td class="num">5</td><td class="num">8</td><td class="num">13</td></tr>
+            <tr><td class="num">15</td><td class="num">1</td><td class="num">6</td><td class="num">8</td><td class="num">14</td></tr>
+            <tr><td class="num">16</td><td class="num">1</td><td class="num">6</td><td class="num">9</td><td class="num">15</td></tr>
+            <tr><td class="num">17</td><td class="num">1</td><td class="num">7</td><td class="num">9</td><td class="num">16</td></tr>
+            <tr><td class="num">18</td><td class="num">1</td><td class="num">7</td><td class="num">10</td><td class="num">17</td></tr>
+            <tr><td class="num">19</td><td class="num">1</td><td class="num">7</td><td class="num">11</td><td class="num">18</td></tr>
+            <tr><td class="num">20</td><td class="num">1</td><td class="num">8</td><td class="num">11</td><td class="num">19</td></tr>
+            <tr><td class="num">21</td><td class="num">1</td><td class="num">8</td><td class="num">12</td><td class="num">20</td></tr>
+            <tr><td class="num">22</td><td class="num">1</td><td class="num">9</td><td class="num">12</td><td class="num">21</td></tr>
+            <tr><td class="num">23</td><td class="num">1</td><td class="num">9</td><td class="num">13</td><td class="num">22</td></tr>
+            <tr><td class="num">24</td><td class="num">1</td><td class="num">10</td><td class="num">13</td><td class="num">23</td></tr>
+            <tr><td class="num">25</td><td class="num">1</td><td class="num">10</td><td class="num">14</td><td class="num">24</td></tr>
+            <tr><td class="num">26</td><td class="num">1</td><td class="num">10</td><td class="num">15</td><td class="num">25</td></tr>
+            <tr><td class="num">27</td><td class="num">1</td><td class="num">11</td><td class="num">15</td><td class="num">26</td></tr>
+            <tr><td class="num">28</td><td class="num">1</td><td class="num">11</td><td class="num">16</td><td class="num">27</td></tr>
+            <tr><td class="num">29</td><td class="num">1</td><td class="num">12</td><td class="num">16</td><td class="num">28</td></tr>
+            <tr><td class="num">30</td><td class="num">1</td><td class="num">12</td><td class="num">17</td><td class="num">29</td></tr>
+            <tr><td class="num">31</td><td class="num">1</td><td class="num">12</td><td class="num">18</td><td class="num">30</td></tr>
+            <tr><td class="num">32</td><td class="num">1</td><td class="num">13</td><td class="num">18</td><td class="num">31</td></tr>
+            <tr><td class="num">33</td><td class="num">1</td><td class="num">13</td><td class="num">19</td><td class="num">32</td></tr>
+            <tr><td class="num">34</td><td class="num">1</td><td class="num">14</td><td class="num">19</td><td class="num">33</td></tr>
+            <tr><td class="num">35</td><td class="num">1</td><td class="num">14</td><td class="num">20</td><td class="num">34</td></tr>
+            <tr><td class="num">36</td><td class="num">1</td><td class="num">15</td><td class="num">20</td><td class="num">35</td></tr>
+            <tr><td class="num">37</td><td class="num">1</td><td class="num">15</td><td class="num">21</td><td class="num">36</td></tr>
+            <tr><td class="num">38</td><td class="num">1</td><td class="num">15</td><td class="num">22</td><td class="num">37</td></tr>
+            <tr><td class="num">39</td><td class="num">1</td><td class="num">16</td><td class="num">22</td><td class="num">38</td></tr>
+            <tr><td class="num">40</td><td class="num">1</td><td class="num">16</td><td class="num">23</td><td class="num">39</td></tr>
+            <tr><td class="num">41</td><td class="num">1</td><td class="num">17</td><td class="num">23</td><td class="num">40</td></tr>
+            <tr><td class="num">42</td><td class="num">1</td><td class="num">17</td><td class="num">24</td><td class="num">41</td></tr>
+            <tr><td class="num">43</td><td class="num">1</td><td class="num">17</td><td class="num">25</td><td class="num">42</td></tr>
+            <tr><td class="num">44</td><td class="num">1</td><td class="num">18</td><td class="num">25</td><td class="num">43</td></tr>
+            <tr><td class="num">45</td><td class="num">1</td><td class="num">18</td><td class="num">26</td><td class="num">44</td></tr>
+            <tr><td class="num">46</td><td class="num">1</td><td class="num">19</td><td class="num">26</td><td class="num">45</td></tr>
+            <tr><td class="num">47</td><td class="num">1</td><td class="num">19</td><td class="num">27</td><td class="num">46</td></tr>
+            <tr><td class="num">48</td><td class="num">1</td><td class="num">20</td><td class="num">27</td><td class="num">47</td></tr>
+            <tr><td class="num">49</td><td class="num">1</td><td class="num">20</td><td class="num">28</td><td class="num">48</td></tr>
+            <tr><td class="num">50</td><td class="num">1</td><td class="num">20</td><td class="num">29</td><td class="num">49</td></tr>
+            <tr><td class="num">51</td><td class="num">1</td><td class="num">21</td><td class="num">29</td><td class="num">50</td></tr>
+            <tr><td class="num">52</td><td class="num">1</td><td class="num">21</td><td class="num">30</td><td class="num">51</td></tr>
+            <tr><td class="num">53</td><td class="num">1</td><td class="num">22</td><td class="num">30</td><td class="num">52</td></tr>
+            <tr><td class="num">54</td><td class="num">1</td><td class="num">22</td><td class="num">31</td><td class="num">53</td></tr>
+            <tr><td class="num">55</td><td class="num">1</td><td class="num">22</td><td class="num">32</td><td class="num">54</td></tr>
+            <tr><td class="num">56</td><td class="num">1</td><td class="num">23</td><td class="num">32</td><td class="num">55</td></tr>
+            <tr><td class="num">57</td><td class="num">1</td><td class="num">23</td><td class="num">33</td><td class="num">56</td></tr>
+            <tr><td class="num">58</td><td class="num">1</td><td class="num">24</td><td class="num">33</td><td class="num">57</td></tr>
+            <tr><td class="num">59</td><td class="num">1</td><td class="num">24</td><td class="num">34</td><td class="num">58</td></tr>
+            <tr><td class="num">60</td><td class="num">1</td><td class="num">25</td><td class="num">34</td><td class="num">59</td></tr>
+            <tr><td class="num">61</td><td class="num">1</td><td class="num">25</td><td class="num">35</td><td class="num">60</td></tr>
+            <tr><td class="num">62</td><td class="num">1</td><td class="num">25</td><td class="num">36</td><td class="num">61</td></tr>
+            <tr><td class="num">63</td><td class="num">1</td><td class="num">26</td><td class="num">36</td><td class="num">62</td></tr>
+            <tr><td class="num">64</td><td class="num">1</td><td class="num">26</td><td class="num">37</td><td class="num">63</td></tr>
+            <tr><td class="num">65</td><td class="num">1</td><td class="num">27</td><td class="num">37</td><td class="num">64</td></tr>
+            <tr><td class="num">66</td><td class="num">1</td><td class="num">27</td><td class="num">38</td><td class="num">65</td></tr>
+            <tr><td class="num">67</td><td class="num">1</td><td class="num">27</td><td class="num">39</td><td class="num">66</td></tr>
+            <tr><td class="num">68</td><td class="num">1</td><td class="num">28</td><td class="num">39</td><td class="num">67</td></tr>
+            <tr><td class="num">69</td><td class="num">1</td><td class="num">28</td><td class="num">40</td><td class="num">68</td></tr>
+            <tr><td class="num">70</td><td class="num">1</td><td class="num">29</td><td class="num">40</td><td class="num">69</td></tr>
+            <tr><td class="num">71</td><td class="num">1</td><td class="num">29</td><td class="num">41</td><td class="num">70</td></tr>
+            <tr><td class="num">72</td><td class="num">1</td><td class="num">30</td><td class="num">41</td><td class="num">71</td></tr>
+            <tr><td class="num">73</td><td class="num">1</td><td class="num">30</td><td class="num">42</td><td class="num">72</td></tr>
+            <tr><td class="num">74</td><td class="num">1</td><td class="num">30</td><td class="num">43</td><td class="num">73</td></tr>
+            <tr><td class="num">75</td><td class="num">1</td><td class="num">31</td><td class="num">43</td><td class="num">74</td></tr>
+            <tr><td class="num">76</td><td class="num">1</td><td class="num">31</td><td class="num">44</td><td class="num">75</td></tr>
+            <tr><td class="num">77</td><td class="num">1</td><td class="num">32</td><td class="num">44</td><td class="num">76</td></tr>
+            <tr><td class="num">78</td><td class="num">1</td><td class="num">32</td><td class="num">45</td><td class="num">77</td></tr>
+            <tr><td class="num">79</td><td class="num">1</td><td class="num">32</td><td class="num">46</td><td class="num">78</td></tr>
+            <tr><td class="num">80</td><td class="num">1</td><td class="num">33</td><td class="num">46</td><td class="num">79</td></tr>
+            <tr><td class="num">81</td><td class="num">1</td><td class="num">33</td><td class="num">47</td><td class="num">80</td></tr>
+            <tr><td class="num">82</td><td class="num">1</td><td class="num">34</td><td class="num">47</td><td class="num">81</td></tr>
+            <tr><td class="num">83</td><td class="num">1</td><td class="num">34</td><td class="num">48</td><td class="num">82</td></tr>
+            <tr><td class="num">84</td><td class="num">1</td><td class="num">35</td><td class="num">48</td><td class="num">83</td></tr>
+            <tr><td class="num">85</td><td class="num">1</td><td class="num">35</td><td class="num">49</td><td class="num">84</td></tr>
+            <tr><td class="num">86</td><td class="num">1</td><td class="num">35</td><td class="num">50</td><td class="num">85</td></tr>
+            <tr><td class="num">87</td><td class="num">1</td><td class="num">36</td><td class="num">50</td><td class="num">86</td></tr>
+            <tr><td class="num">88</td><td class="num">1</td><td class="num">36</td><td class="num">51</td><td class="num">87</td></tr>
+            <tr><td class="num">89</td><td class="num">1</td><td class="num">37</td><td class="num">51</td><td class="num">88</td></tr>
+            <tr><td class="num">90</td><td class="num">1</td><td class="num">37</td><td class="num">52</td><td class="num">89</td></tr>
+            <tr><td class="num">91</td><td class="num">1</td><td class="num">37</td><td class="num">53</td><td class="num">90</td></tr>
+            <tr><td class="num">92</td><td class="num">1</td><td class="num">38</td><td class="num">53</td><td class="num">91</td></tr>
+            <tr><td class="num">93</td><td class="num">1</td><td class="num">38</td><td class="num">54</td><td class="num">92</td></tr>
+            <tr><td class="num">94</td><td class="num">1</td><td class="num">39</td><td class="num">54</td><td class="num">93</td></tr>
+            <tr><td class="num">95</td><td class="num">1</td><td class="num">39</td><td class="num">55</td><td class="num">94</td></tr>
+            <tr><td class="num">96</td><td class="num">1</td><td class="num">40</td><td class="num">55</td><td class="num">95</td></tr>
+            <tr><td class="num">97</td><td class="num">1</td><td class="num">40</td><td class="num">56</td><td class="num">96</td></tr>
+            <tr><td class="num">98</td><td class="num">1</td><td class="num">40</td><td class="num">57</td><td class="num">97</td></tr>
+            <tr><td class="num">99</td><td class="num">1</td><td class="num">41</td><td class="num">57</td><td class="num">98</td></tr>
+            <tr><td class="num">100</td><td class="num">1</td><td class="num">41</td><td class="num">58</td><td class="num">99</td></tr>
+            <tr><td class="num">101</td><td class="num">1</td><td class="num">42</td><td class="num">58</td><td class="num">100</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="note">
+        <b>表怎麼讀</b>
+        <p>「教學職位合計」比「教職員編制」少一人，因為編制已包含校長。例如編制 29 人：校長 1、SGM 12、GM 16，教學職位合計 28。「合計」一欄 ＝ 校長以外教學職位總數，亦即 SGM ＋ GM；再加校長 1 人，才等於最左欄的編制數目。</p>
+      </div>
+
+      <h2 id="rank">職級比例與副校長職位</h2>
+      <ul>
+        <li><strong>SGM 及 PGM 合計不得超過 5/12</strong>（附錄二第 2(a) 段）。此比例<strong>不計</strong>：1994 年 9 月 1 日起為 15 班或以上學校由 GM 升格的那一個 SGM 職位。</li>
+        <li>計算晉升職位比例時，<strong>校長職位</strong>及基本編制以外的職位<strong>不計入</strong>，但第 1(e)(i) 及 1(e)(v) 段的額外教師除外。</li>
+        <li>自 <strong>2020/21 學年</strong>起：開設 12–23 班的資助中學，<strong>2 個 SGM 職位改編為 PGM</strong> 供副校長出任；24 班或以上者，<strong>3 個</strong>。</li>
+        <li>自 1994 年 9 月 1 日起，15 班或以上的資助中學有 <strong>1 個 GM 職位升格為 SGM</strong>。</li>
+      </ul>
+
+      <h2 id="additional">各類額外教師與專責職位</h2>
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th style="width:210px">項目</th><th>規定</th></tr></thead>
+          <tbody>
+            <tr><td>中文授課學校的額外英語教師</td><td>以中文作為非語文科目（語文、實用及技術科目、中史、中國文學、英國文學除外）授課的學校可獲額外英語教師，數目按中文授課節數比例計算。純中文授課的 14 班或以下 1 名、15–23 班 2 名、24–29 班 3 名、30–35 班 4 名（附件 B）。</td></tr>
+            <tr><td>混合授課模式的計算</td><td>以 T（非語文／非實用技術／非中史科目的總教學節數）與 C（其中以中文授課的節數）比較：3–14 班，C ≥ 50% T 得 1 名；15–23 班，C 25–74% 得 1 名、≥75% 得 2 名；24–29 班，C 25–74% 得 2 名、≥75% 得 3 名；30–35 班，C 25–74% 得 3 名、≥75% 得 4 名。</td></tr>
+            <tr><td>加強英語教師（NET）計劃</td><td>不論授課語言均提供：<strong>不足 40 班 1 名、40 班或以上 2 名</strong>。可另以 1 名 NET 填補按附件 B 獲分配的額外英語教師職位（GM 職級）。</td></tr>
+            <tr><td>新校</td><td>1996 年 9 月 1 日起，新校在<strong>首兩年</strong>各獲 1 名額外 GM。</td></tr>
+            <tr><td>中一至中三學業成績稍遜學生</td><td>每班全港最低 10% 學生獲 <strong>0.7 名 GM</strong>；每班第三組別（Band 3）但不在最低 10% 者獲 <strong>0.3 名 GM</strong>。2009/10 起計算結果保留一位小數。</td></tr>
+            <tr><td>高中課程支援津貼 / 生涯規劃津貼轉職位</td><td>2016/17 起可把津貼轉為常額教席：課程支援津貼每班高中 <strong>0.1 GM</strong>；生涯規劃津貼 <strong>1 GM</strong>。兩個津貼須於 2022/23 學年前全面轉為教席。</td></tr>
+            <tr><td>特殊教育需要統籌主任（SENCO）</td><td>2017/18 起分三年為每所公營普通中學提供 1 個 GM 職位；2019/20 起學習支援津貼達指定門檻者升格為 <strong>SGM</strong>。該職位<strong>不計入</strong>晉升職位。</td></tr>
+            <tr><td>特殊教育需要支援教師（SENST）</td><td>2019/20 起，學習支援津貼達不同門檻的學校可獲 1–3 個 GM 職位，<strong>不計入</strong>晉升職位。</td></tr>
+            <tr><td>零星學位教師職位（fractional GM）</td><td>把基本編制與額外教師的小數部分相加，整數部分撥入 GM 編制；小數職位不計晉升，學校可保留或選擇<strong>套現</strong>（按 GM 薪級中點計算）。</td></tr>
+            <tr><td>兼職教師</td><td>計算公式：<span class="mono">1.3 ×（該教師每週／循環週節數 ÷ 全校每週／循環週總節數）</span></td></tr>
+            <tr><td>海外合約教師</td><td>12–23 班可聘 <strong>2 名</strong>英語教師；24 班或以上 <strong>3 名</strong>（僅適用於仍有在職海外合約教師的學校）。</td></tr>
+            <tr><td>教育心理學家（EP）</td><td>由教育局開設職位，邀請辦學團體申請，派駐基地學校為獲指派學校提供校本教育心理服務；職位為 EP I 與 EP II <strong>合併編制</strong>，符合 EP I 入職要求並具 3 年滿意 EP II 服務者可考慮直接聘任 EP I。</td></tr>
+            <tr><td>校本言語治療師</td><td>2019/20 起按學校群組開設，派駐基地學校為獲指派學校提供服務。</td></tr>
+            <tr><td>學校行政主任（Sch ExO）</td><td>2019/20 起在核准非教學人員編制中開設，學校可選擇開設。</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h2 id="lt">實驗室技術員編制</h2>
+      <p>實驗室技術員數目不是按班數直接查表，而是按<strong>全校實驗節數</strong>計算（附錄二附件 C）：</p>
+      <div class="chart-card">
+        <h4>計算公式</h4>
+        <div class="sub">分母固定為 54。</div>
+        <p style="font-family:var(--mono);font-size:15px;text-align:center;margin:18px 0 10px;color:var(--navy)">
+          實驗室技術員數目 ＝ 全校每週實驗節數 ÷ 54
+        </p>
+        <p class="small" style="text-align:center;margin:0 0 6px">「全校每週實驗節數」＝ 初中各班實驗節數 ＋ 高中各理科組別實驗節數 ＋ 額外實驗節數（1.3 × 中一至中三班數）</p>
+      </div>
+
+      <h4>標準實驗節數（每週）</h4>
+      <div class="table-wrap">
+        <table class="compact">
+          <thead><tr><th>科目 / 級別</th><th class="mid">S1</th><th class="mid">S2</th><th class="mid">S3</th><th class="mid">S4</th><th class="mid">S5</th><th class="mid">S6</th></tr></thead>
+          <tbody>
+            <tr><td>綜合科學（S1–3）</td><td class="mid">4</td><td class="mid">4</td><td class="mid">4</td><td class="mid">—</td><td class="mid">—</td><td class="mid">—</td></tr>
+            <tr><td>生物（S4–6）</td><td class="mid">—</td><td class="mid">—</td><td class="mid">—</td><td class="mid">4</td><td class="mid">4</td><td class="mid">4</td></tr>
+            <tr><td>化學（S4–6）</td><td class="mid">—</td><td class="mid">—</td><td class="mid">—</td><td class="mid">4</td><td class="mid">4</td><td class="mid">4</td></tr>
+            <tr><td>物理（S4–6）</td><td class="mid">—</td><td class="mid">—</td><td class="mid">—</td><td class="mid">4</td><td class="mid">4</td><td class="mid">4</td></tr>
+            <tr><td>綜合科學（S4–6）</td><td class="mid">—</td><td class="mid">—</td><td class="mid">—</td><td class="mid">4</td><td class="mid">4</td><td class="mid">4</td></tr>
+            <tr><td>組合科學（S4–6）</td><td class="mid">—</td><td class="mid">—</td><td class="mid">—</td><td class="mid">4</td><td class="mid">4</td><td class="mid">4</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p class="small">計算基準：每週 5 個教學日、每節實驗 40 分鐘。學校實際編配<strong>少於</strong>標準節數時按實際計算；<strong>多於</strong>標準時仍按標準計算。</p>
+
+      <h4>三項調整規則</h4>
+      <ol>
+        <li>不足一個職位的<strong>半數或以上</strong>，作一個職位計算。</li>
+        <li>發展中的學校若按公式不足兩個職位，得出的<strong>任何分數</strong>均作一個職位計算。</li>
+        <li>技術員數目<strong>在任何情況下不得多於學校實驗室數目</strong>。</li>
+      </ol>
+      <p>職級方面：學校有 <strong>4 個或以上實驗室</strong>且技術員達 <strong>3 名或以上</strong>，其中 1 個職位為 <strong>LT I</strong>；發展中的學校若預計第三年運作時達上述規模，開辦初期亦先獲 1 個 LT I 職位。</p>
+
+      <h2 id="salary">薪級表與增薪欄</h2>
+      <p>附錄三列出各職級在<strong>總薪級表（Master Pay Scale, MPS）</strong>的薪點範圍。以下為現行版本；同一職級因入職日期不同而有不同起薪點，須按入職日期對應。</p>
+
+      <div class="table-wrap">
+        <table>
+          <caption>附錄三：薪級（MPS 薪點）</caption>
+          <thead><tr><th style="width:270px">職級</th><th>薪點範圍</th><th style="width:150px">備註</th></tr></thead>
+          <tbody>
+            <tr><td>校長（Principal I, Pr. I）</td><td class="mono">45 – 49</td><td>—</td></tr>
+            <tr><td>副校長 / 二級校長（Principal II, Pr. II）</td><td class="mono">40 – 44</td><td>—</td></tr>
+            <tr><td>首席學位教師（PGM）</td><td class="mono">38 – 41</td><td>副校長職位</td></tr>
+            <tr><td>高級學位教師（SGM）</td><td class="mono">34 – 39</td><td>—</td></tr>
+            <tr>
+              <td>學位教師（GM）</td>
+              <td class="mono">17–33 / 12–33 / 17–33 / 15–33</td>
+              <td>按入職日期：2000.4.1 前 / 2000.4.1–2007.7.31 / 2007.8.1–2010.9.30 / 2010.10.1 或之後</td>
+            </tr>
+            <tr><td>首席助理教席（PAM）<span class="ref">已逐步取消</span></td><td class="mono">34 – 36</td><td>非學位職級</td></tr>
+            <tr><td>高級助理教席（SAM）<span class="ref">已逐步取消</span></td><td class="mono">30 – 33</td><td>非學位職級</td></tr>
+            <tr><td>助理教席（AM）<span class="ref">已逐步取消</span></td><td class="mono">25 – 29</td><td>非學位職級</td></tr>
+            <tr><td>檢定教員（CM）<span class="ref">已逐步取消</span></td><td class="mono">14–24 / 12–24 / 14–24</td><td>按入職日期</td></tr>
+            <tr><td>非檢定教員（UQT）</td><td class="mono">4</td><td>單一薪點</td></tr>
+            <tr><td>教育心理學家 I（EP I）</td><td class="mono">34 – 44</td><td>—</td></tr>
+            <tr><td>教育心理學家 II（EP II）</td><td class="mono">25–33 / 20–33 / 25–33 / 23–33</td><td>按入職日期</td></tr>
+            <tr><td>校本言語治療師</td><td class="mono">18–33 / 13–33 / 18–33 / 16–33</td><td>按入職日期</td></tr>
+            <tr><td>學校行政主任（Sch ExO）</td><td class="mono">15 – 27</td><td>—</td></tr>
+            <tr><td>實驗室技術員 I（LT I）</td><td class="mono">22 – 28</td><td>—</td></tr>
+            <tr><td>實驗室技術員 II（LT II）</td><td class="mono">10–21 / 6–21 / 8–21</td><td>按入職日期</td></tr>
+            <tr><td>實驗室技術員 III（LT III）</td><td class="mono">4–6 / 3–6 / 4–6</td><td>見<strong>訓練薪級表</strong>，非 MPS</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="warn">
+        <b>增薪欄（salary bar）</b>
+        <p>未取得<strong>教育深造文憑（PGCE）</strong>或常任秘書長認可的同等資歷的學位教師，不得超越指定薪點。以 2010 年 10 月 1 日或之後入職者為例，增薪欄設於 <strong>MPS 20 點</strong>；2007 年 8 月 1 日起，增薪欄一律定於「現行起薪點之上五個薪點」，並隨起薪點變動自動調整。檢定教員亦設增薪欄，現行為 <strong>19 點</strong>（2007 年 8 月 1 日或之後入職）。</p>
+      </div>
+
+      <h2 id="acting">署任安排與署任津貼</h2>
+      <p>署任（acting appointment）分兩種，津貼計法不同，且都要求<strong>連續不少於 30 個曆日</strong>的合資格期：</p>
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th style="width:180px">類型</th><th>情況</th><th>津貼計算</th></tr></thead>
+          <tbody>
+            <tr>
+              <td><strong>署理（with replacement）</strong></td>
+              <td>署任一個最高薪點高於本身職級的實際職位</td>
+              <td>實職薪酬與署任職級<strong>最低薪點</strong>差額的 <strong>90%</strong>；或相等於署任職級薪級表上高於實職薪酬的<strong>下一個增薪點</strong>的 90%，以較高者為準。署任滿 <strong>180 個曆日</strong>後，比率調高至 <strong>100%</strong>。</td>
+            </tr>
+            <tr>
+              <td><strong>兼任（doubling-up）</strong></td>
+              <td>在本身職務之外兼任一個最高薪點較高的主管職位（不獲替補）</td>
+              <td>署任職級最低薪點的 <strong>23%</strong>，或實職薪酬與該職級最低薪點差額的 <strong>100%</strong>，以<strong>較多者</strong>為準。</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <h4>合資格期的計算細節（附錄三註 2–8）</h4>
+      <ul>
+        <li>30 日<strong>包括</strong>期間的星期日與公眾假期，以及署任期<strong>前後緊接</strong>的星期日及公眾假期；但計算津貼金額時，前後的星期日與假期<strong>不計入</strong>。</li>
+        <li>學校假期可計入合資格期並可獲津貼，前提是該教師在假期間<strong>仍須履行</strong>署任職務，且學校妥為記錄。</li>
+        <li>合資格期內最多可包含<strong>連續 3 日</strong>的休假或缺勤（病假及獲准的培訓、公務除外）；超過 3 日者，該段不計入合資格期。</li>
+        <li>休假超過 3 個連續工作日，<strong>整段休假</strong>（含中間的公眾假期與星期日）<strong>喪失</strong>署任津貼。</li>
+        <li>連續署任<strong>不同職級</strong>時，每次獨立計算，<strong>不可合併</strong>以滿足 30 日期間。</li>
+        <li>同一時間只可領取<strong>一份</strong>署任津貼；學校不得作並行多重署任。</li>
+        <li>基於運作需要，可作<strong>不支付津貼</strong>的署任。</li>
+        <li>署任津貼在計算公積金時<strong>視作薪酬</strong>。</li>
+      </ul>
+      <p>此外，第 61 條容許校董會按附錄九批准全職學位教師<strong>署任 SGM</strong> 的空缺；第 62 條容許全職常額教師署任<strong>核准功能性職位</strong>（Pr. I、Pr. II、PGM、SGM），因核准假期或自然流失而空缺時適用。</p>
+
+      <p class="small" style="margin-top:26px">下一章：<a href="personnel.html">04 聘任、晉升與離職 →</a></p>
+    </article>
+
+    <footer class="site">
+      <div class="row">
+        <b>中學資助則例 · 導讀</b>　|　本章依據附錄二、附錄三及第 20–24、59–62 條整理。<br>
+        薪點與津貼金額每年可由政府調整，實際數字以教育局現行通函及公務員薪級表為準。
+      </div>
+    </footer>
+  </div>
+</div>
+<script src="assets/app.js"></script>
+</body>
+</html>
